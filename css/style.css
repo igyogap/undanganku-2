@@ -35,7 +35,7 @@ Cover
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -197,10 +197,10 @@ General
 Medium devices (tablets, 768px and up)
 =====================================================================*/
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .cover {
     /* The image used */
-    background-image: url(../img/cover.jpg);
+    background-image: url(../img/cover-mobile.jpg);
   }
 }
 
@@ -208,9 +208,9 @@ Medium devices (tablets, 768px and up)
 Small devices (landscape phones, 576px and up)
 =====================================================================*/
 
-@media only screen and (min-width: 576px) {
+@media (max-width: 576px) {
   .cover {
     /* The image used */
-    background-image: url(../img/cover.jpg);
+    background-image: url(../img/cover-mobile.jpg);
   }
 }
