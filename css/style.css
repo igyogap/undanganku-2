@@ -201,8 +201,8 @@ Medium devices (tablets, 768px and up)
   .cover {
     /* The image used */
     background-image: url(../img/cover-mobile.jpg);
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -219,8 +219,8 @@ Small devices (landscape phones, 576px and up)
   .cover {
     /* The image used */
     background-image: url(../img/cover-mobile.jpg);
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
