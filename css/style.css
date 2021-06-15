@@ -192,3 +192,25 @@ General
   background-color: #2b2d42;
   color: #edf2f4;
 }
+
+/*=====================================================================
+Medium devices (tablets, 768px and up)
+=====================================================================*/
+
+@media (min-width: 768px) {
+  .cover {
+    /* The image used */
+    background-image: url(../img/cover.jpg);
+  }
+}
+
+/*=====================================================================
+Small devices (landscape phones, 576px and up)
+=====================================================================*/
+
+@media (min-width: 576px) {
+  .cover {
+    /* The image used */
+    background-image: url(../img/cover.jpg);
+  }
+}
