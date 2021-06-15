@@ -202,7 +202,7 @@ Medium devices (tablets, 768px and up)
     /* The image used */
     background-image: url(../img/cover-mobile.jpg);
     height: 100%;
-    width: auto;
+    width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -210,21 +210,3 @@ Medium devices (tablets, 768px and up)
     background-size: cover;
   }
 }
-
-/*=====================================================================
-Small devices (landscape phones, 576px and up)
-=====================================================================*/
-
-/* @media (max-width: 576px) {
-  .cover {
-    /* The image used */
-/* background-image: url(../img/cover-mobile.jpg); */
-/* height: 100%; */
-/* width: auto; */
-/* Create the parallax scrolling effect */
-/* background-attachment: fixed; */
-/* background-position: center; */
-/* background-repeat: no-repeat; */
-/* background-size: cover; */
-/* } */
-/* } */
