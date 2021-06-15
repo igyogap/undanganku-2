@@ -203,6 +203,11 @@ Medium devices (tablets, 768px and up)
     background-image: url(../img/cover-mobile.jpg);
     height: 100%;
     width: auto;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -214,5 +219,12 @@ Small devices (landscape phones, 576px and up)
   .cover {
     /* The image used */
     background-image: url(../img/cover-mobile.jpg);
+    height: 100%;
+    width: auto;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
