@@ -29,7 +29,7 @@ Cover
 
 .cover {
   /* The image used */
-  background-image: url(../img/cover-mobile.jpg);
+  background-image: url(../img/cover.jpg);
   /* Set a specific height */
   height: 100%;
 
@@ -232,7 +232,7 @@ Medium devices (tablets, 768px and up)
     justify-content: center;
     background-attachment: fixed;
     background-color: rgba(51, 153, 255, 0.8);
-    background-image: url(../img/cover.jpg);
+    background-image: url(../img/cover-mobile.jpg);
     /* background-position: top left; */
     background-size: cover;
     border: none;
