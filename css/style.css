@@ -1,0 +1,194 @@
+/*=====================================================================
+Font
+=====================================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Source+Serif+Pro&display=swap');
+
+/*=====================================================================
+ALl
+=====================================================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Source Serif Pro', serif;
+  background-color: #edf2f4;
+}
+
+/*=====================================================================
+Cover
+=====================================================================*/
+
+.cover {
+  /* The image used */
+  background-image: url(../img/cover.jpg);
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover h2 {
+  padding-top: 300px;
+  color: rgb(0, 0, 0);
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Dancing Script', cursive;
+}
+.cover h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+}
+
+/*=====================================================================
+Pengantin
+=====================================================================*/
+
+.pengantin {
+  margin-top: 80px;
+}
+.pengantin img {
+  width: 300px;
+}
+
+.pengantin p {
+  font-size: 25px;
+  line-height: 20px;
+}
+
+.nama-pengantin {
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.nama-ortu {
+  margin-bottom: 20px;
+}
+
+/*=====================================================================
+Acara
+=====================================================================*/
+
+.acara {
+  /* The image used */
+  background-image: url(../img/backgound-acara.jpg);
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-acara {
+  padding: 30px;
+  background-color: #edf2f4;
+  /* border-radius: 20px; */
+  opacity: 0.8;
+  min-height: 500px;
+  padding-top: 60px;
+}
+
+.detail-acara h2 {
+  font-family: 'Dancing Script', cursive;
+  line-height: 30px;
+}
+.detail-acara h5 {
+  /* font-family: 'Dancing Script', cursive; */
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/*=====================================================================
+Coundown Time
+=====================================================================*/
+
+.coundown-time {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.countdown div {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  line-height: 60px;
+  text-align: center;
+  background: #ef233c;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.countdown div::before {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  background: #d90429;
+  color: #edf2f4;
+  font-size: 0.57em;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.countdown #hari::before {
+  content: 'Hari';
+}
+.countdown #jam::before {
+  content: 'Jam';
+}
+.countdown #menit::before {
+  content: 'Menit';
+}
+.countdown #detik::before {
+  content: 'Detik';
+}
+
+/*=====================================================================
+Peta Lokasi
+=====================================================================*/
+.peta {
+  background-color: #8d99ae;
+}
+
+.dekor {
+  margin-top: 80px;
+  /* margin-bottom: 80px; */
+}
+
+.maps {
+  border-radius: 20px;
+  outline: #2b2d42 solid 10px;
+}
+
+/*=====================================================================
+General
+=====================================================================*/
+
+.dekor img {
+  width: 300px;
+}
+.btn {
+  background-color: #2b2d42;
+  color: #edf2f4;
+}
