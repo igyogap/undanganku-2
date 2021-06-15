@@ -29,7 +29,7 @@ Cover
 
 .cover {
   /* The image used */
-  background-image: url(../img/cover.jpg);
+  background-image: url(../img/cover-mobile.jpg);
   /* Set a specific height */
   height: 100%;
 
@@ -198,22 +198,22 @@ General
 Medium devices (tablets, 768px and up)
 =====================================================================*/
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .cover {
-    /* The image used */
+    /* The image used 
     background-image: url(../img/cover-mobile.jpg);
     height: 100%;
     width: 100%;
-    /* Create the parallax scrolling effect */
+    /* Create the parallax scrolling effect 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
   }
-}
+}*/
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .cover {
     background-color: #ffffff;
     color: rgba(255, 255, 255, 0.75);
@@ -232,7 +232,7 @@ Medium devices (tablets, 768px and up)
     justify-content: center;
     background-attachment: fixed;
     background-color: rgba(51, 153, 255, 0.8);
-    background-image: url(../img/cover-mobile.jpg);
+    background-image: url(../img/cover.jpg);
     /* background-position: top left; */
     background-size: cover;
     border: none;
