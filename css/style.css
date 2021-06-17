@@ -36,6 +36,7 @@ Cover
 
 .bg-header {
   background-image: url(../img/cover.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,7 +203,7 @@ Medium devices (tablets, 768px and up)
 
 @media (max-width: 767px) {
   .bg-header {
-    background-image: url(cover-mobile.jpg);
+    background-image: url(../img/cover-mobile.jpg);
   }
   .cover h1,
   .cover h2 {
