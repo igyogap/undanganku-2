@@ -209,6 +209,7 @@ Medium devices (tablets, 768px and up)
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     object-fit: contain;
   }
   .cover h1,
