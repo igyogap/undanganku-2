@@ -52,10 +52,6 @@ Cover
   font-size: 72px;
 }
 
-.cover-bg-mobile {
-  display: none;
-}
-
 /*=====================================================================
 Pengantin
 =====================================================================*/
@@ -203,26 +199,20 @@ Medium devices (tablets, 768px and up)
 =====================================================================*/
 
 @media (max-width: 767px) {
-  .cover-bg-mobile {
+  .cover {
     /*  The image used  */
-    /* background-image: url(../img/cover-mobile.jpg); */
-    /* min-height: 100%;
-    min-width: 100%; */
+    background-image: url(../img/cover-mobile.jpg);
+    min-height: 100%;
+    min-width: 100%;
 
     /* Create the parallax scrolling effect  */
-    /* background-attachment: fixed; */
-    /* background-position: center;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; */
-    max-width: 10vh;
-    max-height: auto;
-    z-index: -1;
-    position: absolute;
-    background-repeat: no-repeat;
+    background-size: contain;
   }
   .cover h1,
   .cover h2 {
-    position: relative;
     color: #edf2f4;
     text-shadow: 2px 2px#d90429;
   }
