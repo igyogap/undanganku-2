@@ -201,7 +201,7 @@ Medium devices (tablets, 768px and up)
 @media (max-width: 767px) {
   .cover {
     /*  The image used  */
-    background-image: url(../img/cover-mobile.jpg);
+    /* background-image: url(../img/cover-mobile.jpg); */
     max-height: 100%;
     max-width: 100%;
 
@@ -209,7 +209,6 @@ Medium devices (tablets, 768px and up)
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
     object-fit: contain;
   }
   .cover h1,
