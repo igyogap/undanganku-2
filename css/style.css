@@ -35,16 +35,11 @@ Cover
 =====================================================================*/
 
 .bg-header {
-  /* The image used */
   background-image: url(../img/cover.jpg);
-  /* Set a specific height */
-  height: 100vh;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .cover h2 {
@@ -207,16 +202,7 @@ Medium devices (tablets, 768px and up)
 
 @media (max-width: 767px) {
   .bg-header {
-    /*  The image used  */
-    background-image: url(https://images.unsplash.com/photo-1537633552985-df8429e8048b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHdlZGRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    height: 100vh;
-
-    /* Create the parallax scrolling effect  */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: contain;
+    background-image: url(cover-mobile.jpg);
   }
   .cover h1,
   .cover h2 {
