@@ -198,7 +198,7 @@ General
 Medium devices (tablets, 768px and up)
 =====================================================================*/
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .cover {
     /*  The image used  */
     background-image: url(../img/cover-mobile.jpg);
