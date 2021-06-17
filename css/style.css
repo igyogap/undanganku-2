@@ -210,7 +210,6 @@ Medium devices (tablets, 768px and up)
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    object-fit: cover;
   }
   .cover h1,
   .cover h2 {
