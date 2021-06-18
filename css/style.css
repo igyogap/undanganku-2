@@ -33,7 +33,7 @@ Cover
   /* The image used */
   background-image: url(../cover.jpg);
   /* Set a specific height */
-  height: 100%;
+  height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -204,14 +204,6 @@ Medium devices (tablets, 768px and up)
   .bg-header {
     /*  The image used  */
     background-image: url(../img/cover-mobile.jpg);
-    max-height: 100%;
-    max-width: 100%;
-
-    /* Create the parallax scrolling effect  */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: contain;
   }
   .bg-header h1,
   .bg-header h2 {
