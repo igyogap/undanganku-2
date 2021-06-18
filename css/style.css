@@ -14,11 +14,13 @@ ALl
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body,
-html {
-  /* height: 100%; */
+.wrapper {
+  padding: 0;
+  margin: 0;
+  height: 100%;
   font-family: 'Source Serif Pro', serif;
   background-color: #edf2f4;
 }
@@ -27,9 +29,9 @@ html {
 Cover
 =====================================================================*/
 
-.cover {
+.bg-header {
   /* The image used */
-  background-image: url(../img/cover.jpg);
+  background-image: url(../cover.jpg);
   /* Set a specific height */
   height: 100%;
 
@@ -40,13 +42,13 @@ Cover
   background-size: cover;
 }
 
-.cover h2 {
+.bg-header h2 {
   padding-top: 300px;
   color: rgb(0, 0, 0);
   /* font-family: 'Inconsolata', monospace; */
   font-family: 'Dancing Script', cursive;
 }
-.cover h1 {
+.bg-header h1 {
   color: rgb(0, 0, 0);
   font-family: 'Dancing Script', cursive;
   font-size: 72px;
@@ -199,7 +201,7 @@ Medium devices (tablets, 768px and up)
 =====================================================================*/
 
 @media (max-width: 767px) {
-  .cover {
+  .bg-header {
     /*  The image used  */
     background-image: url(../img/cover-mobile.jpg);
     max-height: 100%;
@@ -211,12 +213,12 @@ Medium devices (tablets, 768px and up)
     background-repeat: no-repeat;
     object-fit: contain;
   }
-  .cover h1,
-  .cover h2 {
+  .bg-header h1,
+  .bg-header h2 {
     color: #edf2f4;
     text-shadow: 2px 2px#d90429;
   }
-  .cover h2 {
+  .bg-header h2 {
     padding-top: 400px;
   }
 }
