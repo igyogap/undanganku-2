@@ -30,16 +30,11 @@ Cover
 =====================================================================*/
 
 .bg-header {
-  /* The image used */
-  background-image: url(../cover.jpg);
-  /* Set a specific height */
-  height: 100vh;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center center;
+  background-image: url(../img/cover.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .bg-header h2 {
