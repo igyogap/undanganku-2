@@ -28,7 +28,7 @@ Cover
 =====================================================================*/
 
 .bg-header {
-  background-image: url(cover-mobile.jpg);
+  background-image: url(../img/cover-mobile.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
