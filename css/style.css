@@ -194,7 +194,7 @@ General
 Medium devices (tablets, 768px and up)
 =====================================================================*/
 
-@media (min-width: 767px) {
+@media (min-width: 414px) {
   .bg-header {
     /*  The image used  */
     background-image: url(../img/cover.jpg);
