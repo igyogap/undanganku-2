@@ -32,7 +32,6 @@ Cover
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -81,9 +80,9 @@ Acara
 
 .acara {
   /* The image used */
-  background-image: url(../img/bg-acara-mobile.jpg);
+  background-image: url(../img/backgound-acara.jpg);
   /* Set a specific height */
-  height: 100vh;
+  height: 80vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -93,11 +92,12 @@ Acara
 }
 
 .detail-acara {
-  padding: 50px 30px;
+  padding: 30px;
   background-color: #edf2f4;
   /* border-radius: 20px; */
   opacity: 0.8;
-  height: 70vh;
+  min-height: 500px;
+  padding-top: 60px;
 }
 
 .detail-acara h2 {
@@ -204,9 +204,5 @@ Medium devices (tablets, 768px and up)
   }
   .bg-header h2 {
     padding-top: 400px;
-  }
-
-  .acara {
-    background-image: url(../img/backgound-acara.jpg);
   }
 }
