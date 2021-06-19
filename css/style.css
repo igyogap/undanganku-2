@@ -80,12 +80,11 @@ Acara
 
 .acara {
   /* The image used */
-  background-image: url(../img/backgound-acara.jpg);
+  background-image: url(../img/bg-acara-mobile.jpg);
   /* Set a specific height */
   height: 80vh;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,5 +203,8 @@ Medium devices (tablets, 768px and up)
   }
   .bg-header h2 {
     padding-top: 400px;
+  }
+  .acara {
+    background-image: url(../img/backgound-acara.jpg);
   }
 }
