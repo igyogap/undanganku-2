@@ -23,6 +23,7 @@ ALl
   height: 100%;
   font-family: 'Source Serif Pro', serif;
   background-color: #edf2f4;
+  /* scroll-behavior: inherit; */
 }
 
 /*=====================================================================
@@ -30,7 +31,7 @@ Cover
 =====================================================================*/
 
 .bg-header {
-  background-image: url(../img/cover.jpg);
+  background-image: url(../img/cover-mobile.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,16 +39,18 @@ Cover
   height: 100vh;
 }
 
+.bg-header h1,
 .bg-header h2 {
-  padding-top: 300px;
-  color: rgb(0, 0, 0);
-  /* font-family: 'Inconsolata', monospace; */
+  color: #edf2f4;
+  text-shadow: 2px 2px#d90429;
   font-family: 'Dancing Script', cursive;
 }
 .bg-header h1 {
-  color: rgb(0, 0, 0);
-  font-family: 'Dancing Script', cursive;
-  font-size: 72px;
+  font-size: 3em;
+}
+.bg-header h2 {
+  padding-top: 400px;
+  font-size: 2em;
 }
 
 /*=====================================================================
@@ -83,7 +86,7 @@ Acara
   /* The image used */
   background-image: url(../img/backgound-acara.jpg);
   /* Set a specific height */
-  height: 100%;
+  height: 80vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -117,7 +120,6 @@ Coundown Time
 =====================================================================*/
 
 .coundown-time {
-  margin-top: 80px;
   margin-bottom: 80px;
 }
 
@@ -170,11 +172,6 @@ Peta Lokasi
   background-color: #8d99ae;
 }
 
-.dekor {
-  margin-top: 80px;
-  /* margin-bottom: 80px; */
-}
-
 .maps {
   border-radius: 20px;
   outline: #2b2d42 solid 10px;
@@ -185,6 +182,7 @@ General
 =====================================================================*/
 
 .dekor img {
+  margin-top: 50px;
   width: 300px;
 }
 .btn {
@@ -196,15 +194,18 @@ General
 Medium devices (tablets, 768px and up)
 =====================================================================*/
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .bg-header {
     /*  The image used  */
-    background-image: url(../img/cover-mobile.jpg);
+    background-image: url(../img/cover.jpg);
   }
   .bg-header h1,
   .bg-header h2 {
-    color: #edf2f4;
-    text-shadow: 2px 2px#d90429;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+  }
+  .bg-header h1 {
+    font-size: 72px;
   }
   .bg-header h2 {
     padding-top: 400px;
