@@ -82,7 +82,7 @@ Acara
   /* The image used */
   background-image: url(../img/bg-acara-mobile.jpg);
   /* Set a specific height */
-  height: 80vh;
+  height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-position: center;
@@ -95,7 +95,7 @@ Acara
   background-color: #edf2f4;
   /* border-radius: 20px; */
   opacity: 0.8;
-  min-height: 500px;
+  min-height: 80vh;
   padding-top: 60px;
 }
 
@@ -165,10 +165,27 @@ Peta Lokasi
 .peta {
   background-color: #8d99ae;
 }
+.btn-peta {
+  margin-bottom: 30px;
+}
 
 .maps {
   border-radius: 20px;
   outline: #2b2d42 solid 10px;
+}
+
+/*=====================================================================
+Galeri foto
+=====================================================================*/
+
+.image-slider img {
+  width: 450px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.galeri-foto {
+  margin: 50px 0px;
 }
 
 /*=====================================================================
@@ -208,5 +225,8 @@ Medium devices (tablets, 768px and up)
   .acara {
     background-image: url(../img/backgound-acara.jpg);
     background-attachment: fixed;
+  }
+  .image-slider img {
+    width: 350px;
   }
 }
