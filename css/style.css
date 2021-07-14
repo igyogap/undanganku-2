@@ -41,6 +41,7 @@ Cover
   text-shadow: 2px 2px#d90429;
   font-family: 'Dancing Script', cursive;
 }
+
 .bg-header h1 {
   font-size: 3em;
 }
@@ -216,6 +217,10 @@ Medium devices (tablets, 768px and up)
 =====================================================================*/
 
 @media (min-width: 768px) {
+  /*=====================================================================
+  content
+  =====================================================================*/
+
   .bg-header {
     /*  The image used  */
     background-image: url(../img/cover.jpg);
